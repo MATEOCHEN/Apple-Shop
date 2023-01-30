@@ -1,16 +1,15 @@
-const mysql = require('mysql');
+const mysql = require("mysql");
 
-const connection = mysql.createConnection(
-    {
-        host:'127.0.0.1', 
-        user: 'root', 
-        password:'',
-        database: 'shop'
-    }
-)
-
+var connection = mysql.createConnection({
+  host: "my-mysql-steven.mysql.database.azure.com",
+  user: "stezen129",
+  password: "Aa130217975",
+  database: "",
+  port: 3306,
+});
 connection.connect((err) => {
-    if (err) throw err;
+  if (err) throw err;
+  console.log("Azure Database Connected!");
 });
 
 module.exports = connection;
