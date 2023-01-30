@@ -1,8 +1,22 @@
 # Node.js
-Node course
+Node learning side project
+
+# How to start?
+1. npm install
+2. npm start
+
+# Dependencies
+1. DB
+    MySql, Customer Account, Order, Product
+    Mongo, Product Image(base64)
+2. Realted Package
+    Express
+    Swagger-ui(API Management)
+    EJS(frontend rendering)
+    Font-awesome
+    Ecpay_aio_nodejs(Payment Method)
 
 
-# 測試信用卡號
-卡號 : 4311-9522-2222-2222
-有效年月 : 大於當前日期
-安全碼 : 222
+
+
+
