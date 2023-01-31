@@ -5,10 +5,8 @@ const upload = multer();
 const mySqlDb = require("../connection/mySqlConnection");
 const mongoClient = require("mongodb").MongoClient;
 const url = "mongodb://127.0.0.1:27017/Products";
-("mongodb://127.0.0.1:27017/students");
 const ecpay_payment = require("../node_modules/ecpay_aio_nodejs/lib/ecpay_payment");
 const options = require("../node_modules/ecpay_aio_nodejs/conf/config-example");
-const { json } = require("stream/consumers");
 /* 
 購物網站基本API
 */
